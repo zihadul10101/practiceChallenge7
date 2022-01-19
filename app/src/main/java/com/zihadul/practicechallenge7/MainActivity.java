@@ -3,6 +3,7 @@ package com.zihadul.practicechallenge7;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -25,6 +26,14 @@ public class MainActivity extends AppCompatActivity {
         plyerName = findViewById(R.id.plyerName);
         plyerType =findViewById(R.id.plyerType);
         plyerDec = findViewById(R.id.plyerDec);
+
+        plyer1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+             flag.setVisibility(View.GONE);
+             
+            }
+        });
 
 
 
