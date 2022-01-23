@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
              flag.setVisibility(View.GONE);
-                Picasso.get().load("https://i.imgur.com/DvpvklR.png").into(flag);
+                Picasso.get().load("https://i.ibb.co/1fhQQCK/shakib-al-hasan.webp").into(flag);
                 plyerName.setText("\n" +
                         "Shakib Al Hasan");
                 plyerType.setText("all-rounder");
@@ -46,6 +46,54 @@ public class MainActivity extends AppCompatActivity {
 
 
         plyer2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                flag.setVisibility(View.GONE);
+                Picasso.get().load("https://i.ibb.co/Zz3YdVJ/mahmudullah.webp").into(flag);
+                plyerName.setText("\n" +
+                        "Mahmudullah");
+                plyerType.setText("all-rounder");
+                plyerDec.setText("Like Sanath Jayasuriya, Kevin Pietersen, Shoaib Malik, Steve Smith and many more, Mahmudullah started his career as a bowler and then converted into a batsman who could bowl handy off-breaks. He became the first Bangladeshi World Cup centurion when he scored 103 against England at the Adelaide Oval that helped his team reach the knockout stage for the first time.\n" +
+                        "\n" +
+                        "Born in Mymensingh, Mahmudullah made his first-class debut for Bangladesh A at the age of 19 and posted scores of 55 and 42 against Zimbabwe A. He made his debut in international cricket in an ODI against Sri Lanka in July 2007 and made an instant impact picking up 2 wickets and scored 36 runs but the effort went in vain as Bangladesh came up short. The performance was enough to convince the selectors to pick him for the tour to Kenya and the T20 World Cup later that year. He was briefly dropped from the side in 2008 but worked his way back with phenomenal domestic performances to earn a recall.");
+
+            }
+        });
+
+
+        plyer3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                flag.setVisibility(View.GONE);
+                Picasso.get().load("https://i.ibb.co/swx9Kp8/tamim-iqbal.webp").into(flag);
+                plyerName.setText("\n" +
+                        "Mahmudullah");
+                plyerType.setText("all-rounder");
+                plyerDec.setText("Like Sanath Jayasuriya, Kevin Pietersen, Shoaib Malik, Steve Smith and many more, Mahmudullah started his career as a bowler and then converted into a batsman who could bowl handy off-breaks. He became the first Bangladeshi World Cup centurion when he scored 103 against England at the Adelaide Oval that helped his team reach the knockout stage for the first time.\n" +
+                        "\n" +
+                        "Born in Mymensingh, Mahmudullah made his first-class debut for Bangladesh A at the age of 19 and posted scores of 55 and 42 against Zimbabwe A. He made his debut in international cricket in an ODI against Sri Lanka in July 2007 and made an instant impact picking up 2 wickets and scored 36 runs but the effort went in vain as Bangladesh came up short. The performance was enough to convince the selectors to pick him for the tour to Kenya and the T20 World Cup later that year. He was briefly dropped from the side in 2008 but worked his way back with phenomenal domestic performances to earn a recall.");
+
+            }
+        });
+
+        plyer4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                flag.setVisibility(View.GONE);
+                Picasso.get().load("https://i.ibb.co/Y2q9xMM/sabbir-rahman.webp").into(flag);
+                plyerName.setText("\n" +
+                        "Mahmudullah");
+                plyerType.setText("all-rounder");
+                plyerDec.setText("Like Sanath Jayasuriya, Kevin Pietersen, Shoaib Malik, Steve Smith and many more, Mahmudullah started his career as a bowler and then converted into a batsman who could bowl handy off-breaks. He became the first Bangladeshi World Cup centurion when he scored 103 against England at the Adelaide Oval that helped his team reach the knockout stage for the first time.\n" +
+                        "\n" +
+                        "Born in Mymensingh, Mahmudullah made his first-class debut for Bangladesh A at the age of 19 and posted scores of 55 and 42 against Zimbabwe A. He made his debut in international cricket in an ODI against Sri Lanka in July 2007 and made an instant impact picking up 2 wickets and scored 36 runs but the effort went in vain as Bangladesh came up short. The performance was enough to convince the selectors to pick him for the tour to Kenya and the T20 World Cup later that year. He was briefly dropped from the side in 2008 but worked his way back with phenomenal domestic performances to earn a recall.");
+
+            }
+        });
+
+
+
+        plyer5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 flag.setVisibility(View.GONE);
